@@ -1,0 +1,42 @@
+{
+  "candidate": "SMT NINE English Test10 Revision4 Names",
+  "status": "hardware-test candidate",
+  "verified_on": "2026-10-10",
+  "patch": {
+    "file": "SMT-NINE-English-Test10-Rev4-Names.xdelta",
+    "format": "VCDIFF (xdelta3)",
+    "bytes": 4737417,
+    "sha256": "333c47cdefc91f26cd4ee139df77fab52d9a328b279626dddf4ca08ff1c89c34"
+  },
+  "source": {
+    "description": "Original Japanese XISO with the matching layout",
+    "bytes": 2188050432,
+    "sha256": "9f040606b4af02a9d8a32d3d0175da189f3556b0c2541d953a39c69bca8c2521"
+  },
+  "output": {
+    "description": "English Test10 Revision4 Names XISO",
+    "bytes": 2195193856,
+    "sha256": "b3907691ef6d78aa0ab4dbd3d088d3a12ef5b070bf0aaa8cd1655bec077c5ec6"
+  },
+  "verification": {
+    "decoder": "xdelta3 3.2.1 on macOS",
+    "command": "xdelta3 -d -s source.xiso.iso SMT-NINE-English-Test10-Rev4-Names.xdelta output.xiso.iso",
+    "decoded_output_matches_target_sha256": true,
+    "source_sha256_rechecked_after_decode": true,
+    "source_game_files": 3515,
+    "changed_resources": 72,
+    "unchanged_resources_copied": 3443
+  },
+  "compatibility": {
+    "secondary_compression": false,
+    "armor": false,
+    "default_vcdiff_code_table": true,
+    "maximum_target_window_bytes": 1048576,
+    "other_operating_systems_tested": false
+  },
+  "testing": {
+    "original_xbox_hardware": "pending",
+    "complete_game_playthrough": "pending",
+    "final_candidate_emulator_playthrough": "pending"
+  }
+}
