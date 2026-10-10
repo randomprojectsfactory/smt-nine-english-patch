@@ -1,6 +1,6 @@
 # SMT NINE English Patch
 
-This is a private, work-in-progress English patch for the Japanese Xbox release. **Test10 Revision4 Names** is the current candidate; its first original-Xbox hardware test is still pending.
+This is a work-in-progress English patch for the Japanese Xbox release. **Test10 Revision4 Names** is the current candidate; its first original-Xbox hardware test is still pending.
 
 The current work covers story dialogue, menus, battle text, hacking tutorials and location/navigation names. Tested recruitment conversations work in English, but some optional negotiation responses remain Japanese. Text baked into scenery and the original name-entry keyboard are outside this pass. English drafts and technical work were assisted by Codex.
 
